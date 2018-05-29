@@ -6,8 +6,8 @@
 #ifndef _LORA_TESTER_ACTIVITY_H
 #define _LORA_TESTER_ACTIVITY_H
 
-#include <ui/Activity.h>
 #include <Worker.h>
+#include <ui/Activity.h>
 #include "utils/ByteStack.h"
 
 class LoRaTesterActivity: public Activity, public Worker {
